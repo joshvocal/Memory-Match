@@ -1,0 +1,35 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="Game Settings">
+
+        <ListPreference
+                android:defaultValue="2"
+                android:entries="@array/numCardsForPairEntries"
+                android:entryValues="@array/numCardsForPairValues"
+                android:icon="@drawable/ic_layers_black_24dp"
+                android:key="NUM_CARDS_TO_MATCH"
+                android:summary="%s Cards"
+                android:title="Number of the same cards match." />
+
+        <ListPreference
+                android:defaultValue="10"
+                android:entries="@array/minimumPairsEntries"
+                android:entryValues="@array/minimumPairsValues"
+                android:key="MIN_PAIRS_TO_FIND"
+                android:summary="%s Pairs"
+                android:title="Minimum pairs to find."
+                app:icon="@drawable/ic_search_black_24dp" />
+
+        <ListPreference
+                android:defaultValue="60000"
+                android:entries="@array/gameTimeEntries"
+                android:entryValues="@array/gameTimeValues"
+                android:key="TIME"
+                android:summary="%s Seconds"
+                android:title="Game Time in Seconds"
+                app:icon="@drawable/ic_access_time_black_24dp" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

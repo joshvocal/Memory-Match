@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="numCardsForPairEntries">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="numCardsForPairValues">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="minimumPairsEntries">
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+    </string-array>
+
+    <string-array name="minimumPairsValues">
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+    </string-array>
+
+    <string-array name="gameTimeEntries">
+        <item>60</item>
+        <item>30</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="gameTimeValues">
+        <item>60000</item>
+        <item>30000</item>
+        <item>10000</item>
+    </string-array>
+
+</resources>
